@@ -7,7 +7,8 @@
     <title>Forms</title>
 </head>
 <body>
-    <h1>First Form</h1>
+    <section>
+    <h1>UserName And Password Inputs</h1>
 
     <form action="/Yeab">
         <p>
@@ -20,8 +21,28 @@
             <input id="Password" type="text" placeholder="YeabPassword" name="Password">
 
         </p>
-            
+            <button> Submit Button </button>
     </form>
-    
+    </section>
+
+
+    <section>
+
+        <h1>Query Strings</h1>
+        <form action="https://www.reddit.com/search/">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+        
+        </form>
+        <form action="https://www.youtube.com/results?search_query">
+        <input type="text" name = "q">
+        <button>YouTube Search</button>
+        </form>
+
+        <form action="https://www.google.com/search">
+        <input type="text" name ="q">
+        <button>Google Search</button>
+        </form>
+    </section>
 </body>
 </html>
