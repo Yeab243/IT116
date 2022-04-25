@@ -60,9 +60,9 @@
     <section>   
         <h1>CheckBox and Radio Buttons</h1>
             <form action="/birds">
-               <input type="checkbox" name="agree_tos" id="agree"> 
                <label for="agree">I agree to everything</label>
-
+               <input type="checkbox" name="agree_tos" id="agree">
+               
                <p>
                    <label for="s">Small</label>
                     <input type="radio" name="size" id="s" value="s">
@@ -88,9 +88,48 @@
                         <option value="">Green</option>
                     </select>
                </p>
+               <!--  -->
+               <p>
+                   <label for="sbar">Yeab's ScrollBar</label>
+                   <input type="range" id="sbar" min="10" max="20" name="scrollbar">
+                </p>
 
-               <button>Yeabsira</button>
+                <!--  -->
+
+                <p>
+
+                    <label for="requests">Type In Special Request</label>
+                    <textarea name="textArea" id="requests" cols="20" rows="20" placeholder="Type Here!"></textarea>
+
+                </p>
+                
+                <!--  -->
+
+                <p>
+
+
+                </p>
+                <button>Yeabsira</button>
             </form>
+    </section>
+
+    <hr>
+
+    <!--  -->
+    <section>
+        <form action="/orange">
+
+            <!--  -->
+            <label for="Yeab">TextBox</label>
+            <input type="text" name="textBook" id="Yeab" required>
+
+            <!--  -->
+            <label for="password"></label>
+            <input type="text" name="pword" id="password" minlength="5" maxlength="10">
+
+            <p> <input type="email" required> </p>
+            <button type="submit">Validation Button</button>
+        </form>
     </section>
 </body>
 </html>
