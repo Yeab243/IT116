@@ -11,16 +11,20 @@
     <!-- label represents a caption in a user interface. -->
     <!-- ID defines a unique identifier -->
     <!-- placeholder represents the placeholder text in an <input> or <textarea> element. -->
-    
+    <!-- The form element represents a collection of form-associated elements. -->
+    <!-- for is the value of the for attribute is the labeled control for this label element-->
     <section>
     <h1>UserName And Password Inputs</h1>
-
+        <!-- This is helpful enter your name and enter a passowrd box -->
     <form action="/Yeab">
-        <p>
+        
+        <!-- Here we are giving the text box and labels for the username. -->
+       <p>
             <label for="username">Enter a Name:</label>
             <input id="username" type="text" placeholder="Yeab" name="username">
         </p>
-
+            
+        <!-- Here we are giving the text box and labels for the password. -->
         <p>
             <label for="username">Enter A Password:</label>
             <input id="Password" type="text" placeholder="YeabPassword" name="Password">
@@ -31,22 +35,28 @@
     </section>
 
 <hr>
+        <!-- the botton element at the end of our code is very useful to represent a button labeled by its contents. -->
     <section>
 
         <h1>Query Strings</h1>
-        <!--  button represents a button labeled by its contents. -->
+        <!-- button represents a button labeled by its contents. -->
+        <!-- this form takes to an external link of reddit -->
         <form action="https://www.reddit.com/search/">
         <input type="text" name="q">
         <button>Search Reddit</button>
         
         </form>
         <!-- The input element represents a typed data field, usually with a form control to allow the user to edit the data. -->
+        <!-- this form here accepts our submission and takes to youtube -->
         <form action="https://www.youtube.com/results?search_query">
         <input type="text" name = "q">
         <button>YouTube Search</button>
         </form>
         
         <!-- The form element represents a collection of form-associated elements -->
+        <!-- The button element represents a button labeled by its contents.-->
+        <!-- this form accepts our form and takes us to the goodle website -->
+
         <form action="https://www.google.com/search">
         <input type="text" name ="q">
         <button>Google Search</button>
@@ -56,7 +66,7 @@
     <hr>
     <!--  action is the URI of a program that processes the form information.-->
     <!-- The first element in the document with an id matching the value of the for attribute is the labeled control for this label element -->
-    
+    <!-- these sections creats radio buttons, labels, scroll bars and drop down lists -->
     <section>   
         <h1>CheckBox and Radio Buttons</h1>
             <form action="/birds">
@@ -77,24 +87,25 @@
 
                </p>
 
-               <!--  -->
+               <!-- The select element represents a control for selecting amongst a set of options.  -->
+               <!-- The option element represents an option in a select element or as part of a list of suggestions in a datalist element. -->
 
                <p>
                     <label for="colors">What Is Your Favorite Color</label>
-                    <!--  -->
+                    <!-- These select statements give us a chance to to select from the three colors-->
                     <select name="colors" id="colors">
                         <option value="">Red</option>
                         <option value="">Blue</option>
                         <option value="">Green</option>
                     </select>
                </p>
-               <!--  -->
+               <!-- the scrollbar that we create here is quite essential to filter our searches. -->
                <p>
                    <label for="sbar">Yeab's ScrollBar</label>
                    <input type="range" id="sbar" min="10" max="20" name="scrollbar">
                 </p>
 
-                <!--  -->
+                <!-- the label element here helps us to input in special requests -->
 
                 <p>
 
@@ -102,9 +113,7 @@
                     <textarea name="textArea" id="requests" cols="20" rows="20" placeholder="Type Here!"></textarea>
 
                 </p>
-                
-                <!--  -->
-
+                <!-- Yeabsira is the name that I have given for my submit button of the form -->
                 <p>
 
 
@@ -115,15 +124,15 @@
 
     <hr>
 
-    <!--  -->
+    <!-- This section accecpts a textbox for names and email id. -->
     <section>
         <form action="/orange">
 
-            <!--  -->
+            <!-- here we have a label and box for a name -->
             <label for="Yeab">TextBox</label>
             <input type="text" name="textBook" id="Yeab" required>
 
-            <!--  -->
+            <!--this is the label and box for the password  -->
             <label for="password"></label>
             <input type="text" name="pword" id="password" minlength="5" maxlength="10">
 
