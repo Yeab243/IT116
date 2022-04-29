@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chick fill A</title>
+</head>
+<body>
+    
+    <!-- label represents a caption in a user interface. -->
+    <!-- ID defines a unique identifier -->
+    <!-- placeholder represents the placeholder text in an <input> or <textarea> element. -->
+
+    <section>
+        <h1> Please fillout the form below </h1>
+            <form action="/Yeab">
+
+     <!-- Here we are giving the text box and labels for the first name. -->
+                <p>
+                    <label for="First Name"> First Name:</label>
+                    <input id="First Name" type="text" placeholder="First Name" name="First Name">
+                </p>
+
+
+    <!-- Here we are giving the text box and labels for the last name. -->
+                <p>
+                    <label for="Last Name"> Last Name:</label>
+                    <input id="Last Name" type="text" placeholder="Last Name" name="Last Name">
+                </p>
+     
+        
+   <!-- The select element represents a control for selecting amongst a set of options.  -->
+   <!-- The option element represents an option in a select element or as part of a list of suggestions in a datalist element. -->
+        
+                <p>
+                    <label for="food">What food would you like to eat?</label>
+    <!-- These select statements give us a chance to to choose from the menu-->
+                    <select name="food" id="food">
+                            <option value="">Chicken</option>
+                            <option value="">Burger</option>
+                            <option value="">Nuggets</option>
+                    </select>
+                </p>
+
+
+    <!-- the label element here helps us to input customers have any alergy -->
+                <p>
+
+                    <label for="requests">Do you have any allergies?</label>
+                    <textarea name="textArea" id="requests" cols="7" rows="7" placeholder="Hey Monte!"></textarea>
+
+                </p>  
+                <button>Send</button>          
+        </form>
+    </section>
+</body>
+</html>
