@@ -1,0 +1,29 @@
+
+/* Here we are making our h1 green */
+h1 
+    {
+        color:green;
+    }
+
+h2 
+    {
+
+        color: purple;
+
+    }
+
+    /* Overhere, the paragraphs texts will be yellow and the background will be black */
+p 
+    {
+        color:yellow;
+        background-color: black;
+        
+    }
+
+button 
+    {
+
+        color:white;
+        background-color:blue;
+
+    }
