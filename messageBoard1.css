@@ -1,0 +1,48 @@
+/* Universal Selector Selects all elements
+*{
+
+    color:pink;
+    background-color: green;
+} */
+
+ /* changes the backrgound color of the body elements  */
+ body 
+    {
+        background-color: aqua;
+    }
+
+/* increases the size of the body to a size of 30px */
+button 
+    {
+        font-size: 30px;
+    }
+/* Multiple selectors are useful select morethan 1 element at a time in CSS */
+h1,h2 
+    {
+        color: yellow;
+    }
+
+/* the # is used for an id */
+
+#signup 
+    {
+        background-color: brown;
+        color: violet;
+    }
+
+/* . is used for class  */
+.tag
+    {
+        color: purple;
+    }
+
+/* descendent selector is a way to select elements that are located somewhere underneath other elements */
+.post a
+    {
+        color: purple;
+    }
+
+/* footer is the parent while a being the child */
+footer > a {
+    color: orange;
+}
