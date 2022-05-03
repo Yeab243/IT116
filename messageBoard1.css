@@ -46,3 +46,34 @@ h1,h2
 footer > a {
     color: orange;
 }
+
+/*  */
+ a[herf="google"]{
+        color:blanchedalmond;
+ }
+
+ /*  */
+ button:hover {
+
+    background-color:yellow;
+    color: aqua;
+
+ }
+
+ /*  */
+ .post button:active {
+
+    background-color:green;
+ }
+
+ /* the pusedo element increases the font size to 45px */
+ h2::first-letter {
+
+    font-size: 45px;
+ }
+
+ /*  */
+ p::first-line{
+    color:green;
+    fontsize:45px;
+ }
