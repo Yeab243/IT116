@@ -75,5 +75,5 @@ footer > a {
  /*  */
  p::first-line{
     color:green;
-    fontsize:45px;
+    font-size:45px;
  }

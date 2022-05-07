@@ -1,0 +1,37 @@
+/* This is a class selector that changes all the elements with the "boomer" class to crimson color*/
+.boomer {
+    color: crimson ;
+
+}
+
+/* This is a class selector that changes all the elements with the "canes" class to green color */
+.canes {
+    color: green;
+}
+
+/* This is a class selector that changes all the elements with the "maize" class to maize color*/
+.maize {
+    color: #FBEC5D ;
+}
+
+/* This is a class selector that changes all the elements with the "ole" class to red color */
+.ole {
+    color: red;
+}
+
+/* This is a class selector that changes all the elements with the "texas" class to burnt orange color */
+.Texas {
+    color: #CC5500;
+}
+
+/* This is an id selector that changes the element with the "yes" class to green background color with white colors  */
+#yes {
+    color: white;
+    background-color: green;
+}
+
+/* This is an id selector that changes the element with the "no" class to red background color with white colors */
+#no {
+    color: white;
+    background-color: red;
+}
