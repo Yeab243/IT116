@@ -1,10 +1,10 @@
-/*  */
-header > a {
+/* the descendent selector here creats a font size of 30px and a specific color of the anchor tag*/
+header a {
     font-size: 30px;
     color: rgb(43, 165, 226);
 }
 
-/*  */
+/* the descendent selector changes the color of the anchor tags in the of the anchor tag */
 #schools a {
     color: rgb(50, 204, 114);
 }
