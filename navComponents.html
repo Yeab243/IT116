@@ -5,23 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 
 <body>
-
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://www.nytimes.com">
-                <img src="https://developers.google.com/search/images/google-search-central-logo.png"
-                alt="" width="38" height="24" class="d-inline-block align-text-top">
-                Branding
-            </a>
-
-        </div>
-    </nav>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <!-- fluid is full width of the screen, md is the breaking point of the pixel size. -->
+        <div class="container-fluid">
+                
+            <!-- Branding -->
+                <a class="navbar-brand" href="https://www.nytimes.com/tc/index.html">
+                    <img src="https://ychef.files.bbci.co.uk/976x549/p0bp7h3v.jpg"
+                alt="" width="38" height="24" class="d-inline-block align-text-top">
+                    To The Moon
+                </a>
+                <!--  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar1"> 
+                    <!--  -->
+                    <ul class="navbar-nav d-flex me-auto">
+                        <!--  -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://www.shopify.com/">Shopify</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://www.BBC.com/">BBC</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://www.Microsoft.com/">Microsoft</a>
+                        </li>
+                        <!--  -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
+                            <!--  -->
+                            <ul class="dropdown-menu">
+                                <!--  -->
+                                <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+                                
+                                <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+                                
+                                <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+                                
+                                <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+                                
+                                <a href="https://www.nytimes.com" class="dropdown-item">NYTimes</a>
+                                
+                            </ul>
+
+                        </li>
+                    </ul>
+                    <!-- Alignment of Objects inside of the container.  -->
+                    <form class="d-flex" action="/testing">
+
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+
+                    </form>
+
+
+                </div>
+            
+            </div>
+        </nav>
+
+        <br>
+        <br>
+
+        <!--  -->
+        <section>
+            <!--  -->
+            <div class="container card">
+                <h1>Bootstrap Components Without Class</h1>
+                <!--  -->
+                <h1 class="display-1 text-center text-success">Components With Class</h1>
+
+                <!--  -->
+                <button type="button" class="btn btn-success">Green</button>
+                <button type="button" class="btn btn-warning">Yellow</button>
+                <button type="button" class="btn btn-danger">Red</button>
+
+                <!--  -->
+                <button type="button" class="btn btn-outline-info">Info</button>
+        <br>        
+        <hr>
+        <br> 
+                <h2 class="display-4">Some Paragraph Text</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet delectus asperiores quo dignissimos, cumque officia, 
+                    voluptatum optio assumenda quis, accusamus ipsam ipsum commodi harum! 
+                    Quia sapiente dolores voluptas beatae tenetur.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
